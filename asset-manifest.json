@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/flacar/static/css/main.45cdf400.chunk.css",
-    "main.js": "/flacar/static/js/main.203d0a33.chunk.js",
-    "main.js.map": "/flacar/static/js/main.203d0a33.chunk.js.map",
+    "main.js": "/flacar/static/js/main.80c2d19f.chunk.js",
+    "main.js.map": "/flacar/static/js/main.80c2d19f.chunk.js.map",
     "runtime-main.js": "/flacar/static/js/runtime-main.046fbfc7.js",
     "runtime-main.js.map": "/flacar/static/js/runtime-main.046fbfc7.js.map",
     "static/css/2.de424728.chunk.css": "/flacar/static/css/2.de424728.chunk.css",
     "static/js/2.be8cfd1e.chunk.js": "/flacar/static/js/2.be8cfd1e.chunk.js",
     "static/js/2.be8cfd1e.chunk.js.map": "/flacar/static/js/2.be8cfd1e.chunk.js.map",
     "index.html": "/flacar/index.html",
-    "precache-manifest.0303423d33a6f48089d295213531b779.js": "/flacar/precache-manifest.0303423d33a6f48089d295213531b779.js",
+    "precache-manifest.d7c9e88a7c22d66d3314d9460413a4a9.js": "/flacar/precache-manifest.d7c9e88a7c22d66d3314d9460413a4a9.js",
     "service-worker.js": "/flacar/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/flacar/static/css/2.de424728.chunk.css.map",
     "static/css/main.45cdf400.chunk.css.map": "/flacar/static/css/main.45cdf400.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.be8cfd1e.chunk.js",
     "static/css/main.45cdf400.chunk.css",
-    "static/js/main.203d0a33.chunk.js"
+    "static/js/main.80c2d19f.chunk.js"
   ]
 }
