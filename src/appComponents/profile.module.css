@@ -1,0 +1,40 @@
+.profileContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 95vh;
+    width: 100%;
+    
+}
+
+.deckStatsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+
+.deckStats {
+  height: 80%;
+  width: 70%;
+  padding: 5%;
+}
+
+.userCardContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+ } 
+
+ .userCard {
+   height: 80%;
+   width: 70%;
+   padding: 5%;
+ }

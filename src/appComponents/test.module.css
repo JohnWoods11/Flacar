@@ -1,0 +1,75 @@
+.testingContainer {
+    height:91vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nonScoreBoardContent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.progressContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+    flex-grow: 1;
+}
+
+.progress {
+    height: 70%;
+    width: 70%;
+}
+
+.cardAndInput {
+    height: 100%;
+    width: 50%;
+    flex-grow: 2;
+}
+
+.scoreMultiplierContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height : 100%;
+    width: 25%;
+    flex-grow: 1;
+}
+
+.scoreMultiplier {
+    height : 70%;
+    width : 10%;
+}
+
+.flashCardContainer {
+    height:70%;
+    width: 100%;
+    padding-top:  30pt;
+    margin-bottom: 40pt;
+}
+
+
+.answerBox {
+    width: 100%;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.checkButton {
+    width: 100%;
+}
+
+.continueButton {
+    width: 100%;
+}
+
+.score {
+    font-size: 4vw;
+    margin: 0;
+}

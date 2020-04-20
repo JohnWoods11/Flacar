@@ -1,0 +1,39 @@
+
+.userImageContainer {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 100%;
+
+}
+
+.headContainer {   
+    margin: 0 auto; 
+    position: relative;
+    height:70%; 
+    width: 80%;
+}
+
+.head {
+    position: absolute;
+    height: 60%;
+    width: 60%;
+    background-color: black;
+    border-radius: 100%;
+    bottom: 0;
+    
+    right: 20%;
+}
+
+.bodyContainer {
+    height: 40%;
+    width: 100%;
+}
+
+.body {
+    
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 100%;
+}

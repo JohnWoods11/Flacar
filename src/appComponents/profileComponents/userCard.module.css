@@ -1,0 +1,32 @@
+.userCardContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 5%;
+
+}
+
+.imageContainer {
+    height: 40%;
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+.userStatsContainer {
+    height: 60%;
+    width: 100%;
+}
+
+.userStats {
+    list-style-type: none;
+    text-align: left;
+}
+
+.statsItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,27 @@
+.accordian {
+  text-align: left;
+}
+
+.cardHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardBody {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5pt;
+  padding-right: 15pt;
+}
+
+.bodyButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+.cardInfoContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hintSide {
+  display: flex;
+  height: 50%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.answerSide {
+  display: flex;
+  height: 50%;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}

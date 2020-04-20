@@ -1,0 +1,24 @@
+.testHistory {
+  height: 100%;
+  width: 100%;
+}
+
+.statsContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 75%;
+}
+
+.moreInfo {
+  display: flex;
+  height: 100%;
+  width: 25%;
+  justify-content: space-around;
+}

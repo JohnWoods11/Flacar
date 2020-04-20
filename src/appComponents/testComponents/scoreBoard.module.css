@@ -1,0 +1,15 @@
+.scoreBoardContainer {
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    width: 100%;
+    padding: 10pt;
+    padding-top: 5pt;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.streak {
+    color:green
+}

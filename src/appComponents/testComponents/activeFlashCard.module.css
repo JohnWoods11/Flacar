@@ -1,0 +1,60 @@
+.flashCard {
+    margin-bottom: 10pt;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+}
+
+.flashCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+}
+
+.flashCardFront, .flashCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flashCardFront {
+    display: flex;
+    justify-content: space-around;
+    background-color: thistle;
+    color: black;
+    align-items: center;
+    
+    font-size: 4vw;
+    word-wrap: break-word;
+
+}
+
+.flashCardBack {
+    display: flex;
+    justify-content: space-around;
+    background-color: thistle;
+    color: black;
+    align-items: center;
+    
+    font-size: 4vw;
+    word-wrap: break-word;
+    transform: rotateY(180deg);
+
+}
+
+
+.hint{min-width: 0;
+}
+
+.answer{min-width: 0;}
+
+
+.flashCard:hover .flashCardinner {
+    transform: rotateY(180deg);
+  }

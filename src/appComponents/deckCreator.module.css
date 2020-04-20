@@ -1,0 +1,73 @@
+.deckCreator {
+  height: 90vh;
+  width: 100%;
+}
+
+.creationContainer {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.creationPanel {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  margin-top: 12pt;
+}
+
+.cardForm {
+  text-align: left;
+}
+
+.stats {
+  height: 25%;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.statsListContainer {
+  padding-left: 10pt;
+  padding-right: 10pt;
+}
+
+.statsList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.statsListItem {
+  width: 30%;
+  height: 50%;
+  flex-grow: 1;
+}
+
+.cards {
+  height: 103%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10pt;
+  align-content: flex-start;
+  margin-top: 26pt;
+}
+
+.newCardButton {
+  display: flex;
+  height: 20%;
+  width: 25%;
+  justify-content: space-around;
+  background-color: #007bff;
+  color: white;
+  z-index: 1;
+  border-radius: 0.25rem;
+  align-items: center;
+}
