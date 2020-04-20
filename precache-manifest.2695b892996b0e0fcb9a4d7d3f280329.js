@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5b3fcd64f4098ad6450607e58570e2a",
+    "revision": "f4169359ec7ac1421f712b2723d0cf8a",
     "url": "/Flacar/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Flacar/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "584ff857bbadc5ce003f",
+    "revision": "6ca9032f52b396785d74",
     "url": "/Flacar/static/css/main.45cdf400.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Flacar/static/js/2.be8cfd1e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "584ff857bbadc5ce003f",
-    "url": "/Flacar/static/js/main.777ed7bb.chunk.js"
+    "revision": "6ca9032f52b396785d74",
+    "url": "/Flacar/static/js/main.48db105c.chunk.js"
   },
   {
     "revision": "c0cd266d6041c5402780",
