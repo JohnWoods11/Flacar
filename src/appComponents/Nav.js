@@ -5,14 +5,13 @@ import styles from "./nav.module.css";
 function Nav() {
   return (
     <nav className={styles.nav}>
-      <Link className={styles.link} to="/">
+      <Link className={styles.link} to="/flacar">
         <h3 className={styles.logo}>Flacar+</h3>
       </Link>
 
-      <Link className={styles.link} to="/profile">
+      <Link className={styles.link} to="/flacar/profile">
         <li className={styles.navListItem}>Profile</li>
       </Link>
-
     </nav>
   );
 }

@@ -9,11 +9,10 @@ function Home(props) {
   const [toDeckCreator, setToDeckCreator] = useState(false);
   const [toTesting, setToTesting] = useState(false);
 
-
   const startTestClicked = (index) => {
     props.startTest(index);
     setToTesting(true);
-  }
+  };
 
   const deleteDeckClicked = (index) => {
     if (
@@ -32,14 +31,14 @@ function Home(props) {
 
   const createDeckClicked = () => {
     props.createDeck();
-  }
+  };
 
   if (toDeckCreator === true) {
-    return <Redirect to="/deckcreator" />;
+    return <Redirect to="/flacar/deckcreator" />;
   }
 
   if (toTesting === true) {
-    return <Redirect to="/testing" />
+    return <Redirect to="flacar/testing" />;
   }
 
   return (
@@ -50,7 +49,11 @@ function Home(props) {
             <Accordian.Toggle as={Card.Header} eventKey={index}>
               <div className={styles.cardHeader}>
                 <h4>{deck.name}</h4>
-                <Button variant="success" size="lg" onClick={() => startTestClicked(index)}>
+                <Button
+                  variant="success"
+                  size="lg"
+                  onClick={() => startTestClicked(index)}
+                >
                   Start Test
                 </Button>
               </div>

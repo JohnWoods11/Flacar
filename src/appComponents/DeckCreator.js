@@ -115,7 +115,7 @@ class DeckCreator extends React.Component {
       this.props.decks[this.props.currentSelection] == null ||
       this.state.exitDeckCreation == true
     )
-      return <Redirect to="/"></Redirect>;
+      return <Redirect to="/flacar"></Redirect>;
     return (
       <div className={styles.deckCreator}>
         <ListGroup className={styles.stats}>

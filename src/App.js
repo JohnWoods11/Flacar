@@ -27,20 +27,26 @@ class App extends React.Component {
     if (localStorage.getItem("decks")) {
       let savedDecks = localStorage.getItem("decks");
       savedDecks = JSON.parse(savedDecks);
-      this.setState({ decks: savedDecks })
+      this.setState({ decks: savedDecks });
     }
   }
 
   saveDeck = (newDeck) => {
     let newDecks = [...this.state.decks];
     newDecks[this.state.currentSelection] = newDeck;
-    this.setState({ decks: newDecks }, localStorage.setItem("decks", JSON.stringify(newDecks)));
-  }
+    this.setState(
+      { decks: newDecks },
+      localStorage.setItem("decks", JSON.stringify(newDecks))
+    );
+  };
 
   deleteDeck = (index) => {
     let newDecks = [...this.state.decks];
     newDecks.splice(index, 1);
-    this.setState({ decks: newDecks }, localStorage.setItem("decks", JSON.stringify(newDecks)));
+    this.setState(
+      { decks: newDecks },
+      localStorage.setItem("decks", JSON.stringify(newDecks))
+    );
   };
 
   editDeck = (index) => {
@@ -52,14 +58,17 @@ class App extends React.Component {
   startTest = (index) => {
     let selection = this.state.currentSelection;
     selection = index;
-    this.setState({ currentSelection: selection })
-  }
+    this.setState({ currentSelection: selection });
+  };
 
   createDeck = () => {
     let newDecks = [...this.state.decks];
-    newDecks.push({ name: "New Deck", cards: [] })
-    this.setState({ decks: newDecks }, localStorage.setItem("decks", JSON.stringify(newDecks)))
-  }
+    newDecks.push({ name: "New Deck", cards: [] });
+    this.setState(
+      { decks: newDecks },
+      localStorage.setItem("decks", JSON.stringify(newDecks))
+    );
+  };
 
   render() {
     return (
@@ -68,7 +77,7 @@ class App extends React.Component {
           <Nav />
           <Switch>
             <Route
-              path="/"
+              path="/flacar"
               exact
               render={(props) => (
                 <Home
@@ -81,10 +90,16 @@ class App extends React.Component {
                 ></Home>
               )}
             />
-            <Route path="/options" render={(props) => <Options></Options>} />
-            <Route path="/profile" render={(props) => <Profile></Profile>} />
             <Route
-              path="/deckcreator"
+              path="/flacar/options"
+              render={(props) => <Options></Options>}
+            />
+            <Route
+              path="/flacar/profile"
+              render={(props) => <Profile></Profile>}
+            />
+            <Route
+              path="/flacar/deckcreator"
               render={(props) => (
                 <DeckCreator
                   decks={this.state.decks}
@@ -93,7 +108,14 @@ class App extends React.Component {
                 ></DeckCreator>
               )}
             />
-            <Route path="/testing" render={(props) => <Test deck={this.state.decks[this.state.currentSelection]}></Test>} />
+            <Route
+              path="/flacar/testing"
+              render={(props) => (
+                <Test
+                  deck={this.state.decks[this.state.currentSelection]}
+                ></Test>
+              )}
+            />
           </Switch>
         </Router>
       </div>
