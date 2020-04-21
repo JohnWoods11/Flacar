@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/flacar/static/css/main.45cdf400.chunk.css",
-    "main.js": "/flacar/static/js/main.f60647ce.chunk.js",
-    "main.js.map": "/flacar/static/js/main.f60647ce.chunk.js.map",
+    "main.js": "/flacar/static/js/main.d966dfff.chunk.js",
+    "main.js.map": "/flacar/static/js/main.d966dfff.chunk.js.map",
     "runtime-main.js": "/flacar/static/js/runtime-main.046fbfc7.js",
     "runtime-main.js.map": "/flacar/static/js/runtime-main.046fbfc7.js.map",
     "static/css/2.de424728.chunk.css": "/flacar/static/css/2.de424728.chunk.css",
-    "static/js/2.be8cfd1e.chunk.js": "/flacar/static/js/2.be8cfd1e.chunk.js",
-    "static/js/2.be8cfd1e.chunk.js.map": "/flacar/static/js/2.be8cfd1e.chunk.js.map",
+    "static/js/2.abb2006c.chunk.js": "/flacar/static/js/2.abb2006c.chunk.js",
+    "static/js/2.abb2006c.chunk.js.map": "/flacar/static/js/2.abb2006c.chunk.js.map",
     "index.html": "/flacar/index.html",
-    "precache-manifest.d92e8c11fcc1f1fb00054f0bd8cbaa21.js": "/flacar/precache-manifest.d92e8c11fcc1f1fb00054f0bd8cbaa21.js",
+    "precache-manifest.2f991d15c950eaf691918d0a58d71f8c.js": "/flacar/precache-manifest.2f991d15c950eaf691918d0a58d71f8c.js",
     "service-worker.js": "/flacar/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/flacar/static/css/2.de424728.chunk.css.map",
     "static/css/main.45cdf400.chunk.css.map": "/flacar/static/css/main.45cdf400.chunk.css.map",
-    "static/js/2.be8cfd1e.chunk.js.LICENSE.txt": "/flacar/static/js/2.be8cfd1e.chunk.js.LICENSE.txt"
+    "static/js/2.abb2006c.chunk.js.LICENSE.txt": "/flacar/static/js/2.abb2006c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.046fbfc7.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.be8cfd1e.chunk.js",
+    "static/js/2.abb2006c.chunk.js",
     "static/css/main.45cdf400.chunk.css",
-    "static/js/main.f60647ce.chunk.js"
+    "static/js/main.d966dfff.chunk.js"
   ]
 }

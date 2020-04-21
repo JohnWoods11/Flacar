@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Country Capitals",
+    "cards": [
+      { "hint": "Tokyo", "answer": "Japan" },
+      { "hint": "New York", "answer": "United States of America" },
+      { "hint": "London", "answer": "England" },
+      { "hint": "Canberra", "answer": "Australia" },
+      { "hint": "Paris", "answer": "France" },
+      { "hint": "Oslo", "answer": "Norway" },
+      { "hint": "Toronto", "answer": "Canada" },
+      { "hint": "Beijing", "answer": "China" },
+      { "hint": "Brasilia", "answer": "Brazil" },
+      { "hint": "New Delhi", "answer": "India" },
+      { "hint": "Moscow", "answer": "Russia" },
+      { "hint": "Berlin", "answer": "Germany" },
+      { "hint": "Helsinki", "answer": "Finland" },
+      { "hint": "Stockholm", "answer": "Sweden" },
+      { "hint": "Madrid", "answer": "Spain" }
+    ]
+  },
+  {
+    "name": "Oceans",
+    "cards": [
+      {
+        "hint": "Around 70% of the Earth's surface is covered by oceans. True or false?",
+        "answer": "True"
+      },
+      {
+        "hint": "What is the largest ocean on Earth?",
+        "answer": "Pacific Ocean"
+      },
+      {
+        "hint": "Around what percentage of the Earth's surface does the Pacific Ocean cover? ",
+        "answer": "30%"
+      },
+      {
+        "hint": "What is the deepest known area of the Earth's oceans?",
+        "answer": "The Mariana Trench"
+      },
+      {
+        "hint": "How deep is the deepest known area of the Earth's oceans?",
+        "answer": "11km"
+      },
+      {
+        "hint": "The longest mountain range in the world is found under water and stretches over 56000km. What is it called? ",
+        "answer": "Mid-Oceanic Ridge"
+      },
+      {
+        "hint": "What is the worlds largest living structure?",
+        "answer": "Great Barrier Reef"
+      },
+      {
+        "hint": "How much of the worlds oceans have we explored?",
+        "answer": "5%"
+      },
+      {
+        "hint": "Which ocean is directly east of Africa?",
+        "answer": "Indian Ocean"
+      },
+      {
+        "hint": "Which ocean circumvents Antarctica?",
+        "answer": "Southern Ocean"
+      }
+    ]
+  },
+  {
+    "name": "Solar System",
+    "cards": [
+      { "hint": "How many planets orbit our Sun?", "answer": "8" },
+      {
+        "hint": "How many Earths could fit into the sun?",
+        "answer": "1000000"
+      },
+      {
+        "hint": "Which is the hottest planet in the solar system?",
+        "answer": "venus"
+      },
+      {
+        "hint": "Which planet has the most moons in the solar system?",
+        "answer": "Saturn"
+      },
+      {
+        "hint": "Except for Earth, the planets in our solar system are named after gods from Roman and Greek mythology. True or false?",
+        "answer": "True"
+      },
+      {
+        "hint": "Which planet is the Largest in the solar system?",
+        "answer": "Jupiter"
+      },
+      {
+        "hint": "The Sun will one day be the same size as the Earth. True or false?",
+        "answer": "True"
+      },
+      {
+        "hint": "The distance from the Sun to the Earth stays the same throughout the year. True or false?",
+        "answer": "False"
+      },
+      {
+        "hint": "Which galaxy is the solar system located in?",
+        "answer": "Milky way"
+      },
+      {
+        "hint": "How long does it take light from the Sun to travel to Earth?",
+        "answer": "8 minutes"
+      }
+    ]
+  },
+  {
+    "name": "Types of Rock",
+    "cards": [
+      {
+        "hint": "Volcanic rocks formed from molten material",
+        "answer": "Igneous"
+      },
+      {
+        "hint": "Particulate rocks formed from fragments of other rocks or the remains of plants and animals",
+        "answer": "Sedimentary"
+      },
+      {
+        "hint": "Sedimentary or igneous rocks that have been transformed by pressure, heat or the intrusion of fluids",
+        "answer": "Metamorphic"
+      },
+      {
+        "hint": "Granite, basalt and obsidian are ______ rocks",
+        "answer": "Igneous"
+      },
+      {
+        "hint": "Sandstone, mudstone and chalk are ______ rocks",
+        "answer": "Sedimentary"
+      },
+      {
+        "hint": "Marble, schist and slate are ______ rocks",
+        "answer": "Metamorphic"
+      },
+      {
+        "hint": "When magma cools and solidifies it forms ______ rock",
+        "answer": "Igneous"
+      },
+      {
+        "hint": "Sediments deposited over time (often as layers at the bottom of lakes and oceans) form ______ rock",
+        "answer": "Sedimentary"
+      },
+      {
+        "hint": "Extreme heat and pressure over time form _______ rocks",
+        "answer": "Metamorphic"
+      }
+    ]
+  }
+]
